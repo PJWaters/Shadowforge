@@ -32,7 +32,7 @@
 
 ## Example Turn
 
-- **Starting AP:** Mid-level character with 10 AP.
+- **Starting AP:** Mid-level character with 6 AP.
 - **Turn Sequence:**
   1. **Move:** The player moves up to their speed (free action).
   2. **Cast Fireball:** The player casts a Fireball spell for 3 AP.
