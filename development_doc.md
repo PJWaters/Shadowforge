@@ -38,25 +38,24 @@ Dynamic and fast-paced combat that minimizes downtime and encourages strategic m
 ### Key Elements
 
 - **Action Economy**
-  - Flexible Action System: Instead of the rigid structure of actions, bonus actions, and reactions, consider a more fluid system where players have a pool of "Action Points" (AP) to spend on different actions each turn. Actions can be categorized by their cost, allowing players to mix and match based on their strategy.
-  - Multi-Action Turns: Allow players to perform multiple smaller actions (like moving, attacking, or using abilities) in a single turn by spending their AP, rather than being limited to one action and one bonus action.
+  - Flexible Action System: Players have a pool of "Action Points" (AP) to spend on different actions each turn.
+  - Multi-Action Turns: Players can perform multiple smaller actions in a single turn by spending AP.
 
 - **Movement and Positioning**
-  - Dynamic Movement Rules: Introduce mechanics that encourage movement during combat, such as granting bonuses for flanking, positioning on higher ground, or moving in and out of cover.
-  - Reduced Penalties for Movement: Modify or remove opportunity attacks or introduce a system where moving tactically (e.g., using a “Dodge” or “Slide” action) reduces the risk of taking damage when moving past enemies.
-  - Environmental Interaction: Allow players to interact with the environment in creative ways, such as knocking over objects to create cover or using the terrain to their advantage.
+  - Dynamic Movement Rules: Encourage movement with bonuses for flanking, high ground, or cover.
+  - Reduced Penalties for Movement: Modify or remove opportunity attacks to encourage tactical repositioning.
 
 - **Combat Abilities and Spells**
-  - Flexible Spellcasting: Create a spellcasting system that allows for more flexibility, such as the ability to combine lower-level spells into a more powerful effect or cast multiple spells in a single turn if the AP allows.
-  - Tactical Abilities: Design abilities that reward strategic thinking, such as debuffs that affect enemy movement or positioning, area control effects, and buffs that enhance the effectiveness of teamwork.
+  - Flexible Spellcasting: Combine lower-level spells or cast multiple spells in a turn if AP allows.
+  - Tactical Abilities: Debuffs, area control, and teamwork-enhancing buffs.
 
 - **Combat Flow and Pacing**
-  - Streamlined Turn Structure: Simplify the turn structure to reduce analysis paralysis. For instance, provide clear options for what players can do on their turn, with an emphasis on keeping decisions quick and straightforward.
-  - Encourage Simultaneous Actions: Implement mechanics that allow certain actions to be resolved simultaneously (e.g., all players declare their actions at once, and then they are resolved in a logical order), speeding up combat without sacrificing depth.
+  - Streamlined Turn Structure: Simplify the turn structure to reduce analysis paralysis.
+  - Encourage Simultaneous Actions: Allow certain actions to be resolved simultaneously.
 
 - **Rewards for Creativity**
-  - Incentivize Creative Solutions: Reward players who use creative tactics in combat, whether through granting bonus AP, advantage on rolls, or other in-game benefits for thinking outside the box.
-  - Dynamic Encounters: Design encounters that encourage players to approach problems in various ways, such as using stealth, negotiation, or environmental manipulation alongside traditional combat.
+  - Incentivize Creative Solutions: Reward creative tactics in combat with bonuses like extra AP or advantages on rolls.
+  - Dynamic Encounters: Encourage diverse approaches like stealth, negotiation, or environmental manipulation.
 
 ### Actionable Steps
 
@@ -64,9 +63,16 @@ Dynamic and fast-paced combat that minimizes downtime and encourages strategic m
 2. Playtest different action point costs for balance.
 3. Iterate based on feedback.
 
-### Visual Aid Suggestion
+### Visual Aid: Sample Turn with Action Points
 
-Flowchart showing a sample turn with action points.
+```mermaid
+graph TD;
+    A[Start Turn] --> B[Move: Free Action];
+    B --> C[Attack: -4 AP];
+    C --> D[Cast Spell: -3 AP];
+    D --> E[Dodge/Slide: -1 AP];
+    E --> F[End Turn];
+```
 
 ## Endless Character Customization
 
@@ -108,9 +114,17 @@ A deep and flexible character creation system that allows players to craft uniqu
 2. Playtest hybrid class builds and skill trees.
 3. Gather feedback on customization options.
 
-### Visual Aid Suggestion
+### Visual Aid: Skill Tree Example
+```mermaid
+graph TD;
+    A[Base Skill] --> B[Path 1: Specialization];
+    A --> C[Path 2: Versatility];
+    B --> D[Advanced Specialization];
+    C --> E[Advanced Versatility];
+    D --> F[Mastery in Specialization];
+    E --> G[Mastery in Versatility];
 
-Example skill tree with branching paths.
+```
 
 ## Balanced Role-Playing and Exploration Mechanics
 
@@ -149,9 +163,18 @@ Creating an immersive world where role-playing and exploration are as rewarding 
 2. Playtest the impact of reputation and faction systems.
 3. Iterate based on narrative-driven progression feedback.
 
-### Visual Aid Suggestion
+### Visual Aid: Reputation and Influence System Flow
 
-Diagram showing reputation and influence system flow.
+```mermaid
+graph TD;
+    A[Player Action] --> B[Reputation Change];
+    B --> C[Positive Outcome];
+    B --> D[Negative Outcome];
+    C --> E[Faction Favor];
+    D --> F[Faction Disfavor];
+    E --> G[Unlock New Opportunities];
+    F --> H[Impose Challenges];
+```
 
 ## Easy to Learn, Deep to Master
 
@@ -188,9 +211,20 @@ An accessible game that remains engaging with layers of strategic depth.
 2. Test optional complexity modules with different player groups.
 3. Iterate based on player feedback.
 
-### Visual Aid Suggestion
+### Visual Aid: Core Rules vs. Advanced Modules
 
-Table comparing core rules and advanced modules.
+```mermaid
+graph TD;
+    A[Core Rules] --> B[Basic Combat];
+    A --> C[Basic Skills];
+    A --> D[Basic Role-Playing];
+    A --> E[Basic Exploration];
+
+    F[Advanced Modules] --> G[Advanced Combat];
+    F --> H[Complex Skill Trees];
+    F --> I[Deep Role-Playing Mechanics];
+    F --> J[Detailed Exploration Mechanics];
+```
 
 ## Feedback and Iterative Development
 
