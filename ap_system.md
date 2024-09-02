@@ -57,7 +57,7 @@ graph TD;
 ### Diagram 2: Example Turn Flow
 ```mermaid
 graph TD;
-    A[Start Turn: 10 AP] --> B[Move: Free Action];
+    A[Start Turn: 6 AP] --> B[Move: Free Action];
     B --> C[Cast Fireball: -3 AP];
     C --> D[Enhance Fireball: -2 AP];
     D --> E[Attack: -1 AP];
