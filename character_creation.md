@@ -52,7 +52,7 @@ Skill Points (SP) are used to unlock abilities within specific skill trees. The 
 graph TD;
     A[Character Creation] --> B[Choose a Race];
     B --> C[Select Background];
-    C --> D[Assign Core Points];
+    C --> D[Assign Starting Points];
     D --> E[Distribute Core Points Across Attributes];
     
     E --> F[Might];
