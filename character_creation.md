@@ -74,4 +74,5 @@ graph TD;
     S --> T[Reach SP Threshold];
     T --> U[Gain Core Point];
     T --> V[Earn Additional Action Points];
+    U --> E;
 ```
