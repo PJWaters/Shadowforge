@@ -61,7 +61,7 @@ graph TD;
     E --> I[Wit];
     E --> J[Charm];
 
-    D --> K[Allocate Action Points and Skill Points];
+    D --> K[Allocate Skill Points];
     K --> L[Choose Skill Trees];
     L --> M[Spend SP to Unlock Skills];
     M --> N[Combat Skill Trees];
