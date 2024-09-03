@@ -52,8 +52,8 @@ Skill Points (SP) are used to unlock abilities within specific skill trees. The 
 graph TD;
     A[Character Creation] --> B[Choose a Race];
     B --> C[Select Background];
-    C --> D[Assign Core Points (CP)];
-    D --> E[Distribute CP Across Attributes];
+    C --> D[Assign Core Points];
+    D --> E[Distribute Core Points Across Attributes];
     
     E --> F[Might];
     E --> G[Agility];
@@ -61,7 +61,7 @@ graph TD;
     E --> I[Wit];
     E --> J[Charm];
 
-    D --> K[Allocate Action Points (AP) and Skill Points (SP)];
+    D --> K[Allocate Action Points and Skill Points];
     K --> L[Choose Skill Trees];
     L --> M[Spend SP to Unlock Skills];
     M --> N[Combat Skill Trees];
@@ -72,6 +72,6 @@ graph TD;
 
     M --> S[Track SP Investment];
     S --> T[Reach SP Threshold];
-    T --> U[Gain Core Point (CP)];
-    T --> V[Earn Additional Action Points (AP)];
+    T --> U[Gain Core Point];
+    T --> V[Earn Additional Action Points];
 ```
